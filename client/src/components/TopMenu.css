@@ -1,0 +1,22 @@
+.top-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #3E6053; /* Background color of the menu bar */
+    padding: 10px 0; /* Padding for top and bottom */
+}
+
+.menu-item {
+    color: yellowgreen; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Space between menu items */
+    padding: 10px 15px; /* Padding around text */
+    font-size: 16px; /* Font size */
+}
+
+.menu-item:hover {
+    background-color: black; /* Background color on hover */
+}
+
+.active {
+    border-bottom: 2px solid red /* Highlight current page */
+}
